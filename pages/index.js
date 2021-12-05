@@ -1,6 +1,6 @@
 export default function Home() {
 	return (
-		<div className='mt-60 w-full grid place-items-center'>
+		<div className='mt-60 w-full grid place-items-center bg-transparent'>
 			<div className='flex flex-row'>
 				<object
 					type='image/svg+xml'
