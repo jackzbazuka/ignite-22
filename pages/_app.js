@@ -33,7 +33,7 @@ export default function App({ Component, pageProps }) {
 	}, [])
 
 	return (
-		<>
+		<div className='flex flex-row'>
 			<Script
 				strategy='afterInteractive'
 				src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
@@ -52,13 +52,7 @@ export default function App({ Component, pageProps }) {
           `,
 				}}
 			/>
-			{loading ? (
-				<Loading />
-			) : (
-				<Layout>
-					<Component {...pageProps} />
-				</Layout>
-			)}
-		</>
+			<Component {...pageProps} />
+		</div>
 	)
 }

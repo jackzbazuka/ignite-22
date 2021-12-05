@@ -8,8 +8,26 @@ module.exports = {
 	],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
+		colors: {
+			'current': 'currentColor',
+			'transparent': 'transparent',
+			'white': colors.white,
+			'black': '#01171C',
+			'soft-red': '#F14956',
+			'yellow': '#F2E206',
+			'cyan': {
+				lighter: '#35BFB0',
+				light: '#19736A',
+				DEFAULT: '#175260',
+				dark: '#092C34',
+				darker: '#011F27',
+			},
+		},
 		extend: {
-			colors: { ...colors },
+			backgroundImage: {
+				'gradient-radial':
+					'radial-gradient(115% 90% at 100% 100%, var(--tw-gradient-stops))',
+			},
 		},
 	},
 	variants: {
