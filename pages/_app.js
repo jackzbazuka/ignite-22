@@ -5,6 +5,10 @@ import NextLink from 'next/link'
 import { useEffect, useState } from 'react'
 import { initialize } from '@/lib/clientApp'
 import * as gtag from '@/lib/gTag'
+import '../about.scss';
+import '../styles.scss';
+
+
 
 export default function App({ Component, pageProps }) {
 	const [loading, setLoading] = useState(false)

@@ -27,6 +27,11 @@ module.exports = {
 			backgroundImage: {
 				'gradient-radial':
 					'radial-gradient(115% 90% at 100% 100%, var(--tw-gradient-stops))',
+				'bg01': "url('/img/hero-pattern.svg')",
+				'bg02': "url('/img/hero-pattern.svg')",
+				'bg03': "url('/img/hero-pattern.svg')",
+				'bg04': "url('/img/hero-pattern.svg')",
+				
 			},
 		},
 	},
