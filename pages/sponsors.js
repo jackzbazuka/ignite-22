@@ -2,9 +2,8 @@ import PageContainer from '@/components/PageContainer'
 import NavContainer from '@/components/NavContainer'
 import NavLink from '@/components/NavLink'
 import FloatingLogo from '@/components/FloatingLogo'
-import Gallery from '@/components/Gallery'
 
-export default function About() {
+export default function Sponsors() {
 	const container = {
 		hidden: {
 			opacity: 0.1,
@@ -21,22 +20,14 @@ export default function About() {
 		<div className='h-full flex flex-row'>
 			<NavContainer>
 				<NavLink page='home' edge='left' />
-				<NavLink page='about' edge='right' />
+				<NavLink page='about' edge='' />
+				<NavLink page='events' edge='' />
+				<NavLink page='sponsors' edge='right' />
 			</NavContainer>
 			<PageContainer>
 				<FloatingLogo />
-				<section className='w-3/4 font-semibold text-center text-lg'>
-					IGNITE is the annual technical festival of NMIMS, Navi
-					Mumbai. We started in the year 2019 with the aim to give a
-					platform for the technologies of future and also to have a
-					time of their lives amidst the perfect blend of amusement
-					and illuminations for a better tomorrow.
-				</section>
-				<Gallery />
 			</PageContainer>
 			<NavContainer>
-				<NavLink page='events' edge='left' />
-				<NavLink page='sponsors' edge='' />
 				<NavLink page='contact' edge='right' />
 			</NavContainer>
 		</div>

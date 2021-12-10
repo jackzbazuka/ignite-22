@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
 		return (
 			<Html>
 				<Head />
-				<body className='m-0 px-10 lg:px-20 text-white bg-cyan-darker'>
+				<body className='m-0 p-0 text-white bg-gradient-radial from-shadow to-rich-black font-sans select-none scroll-smooth'>
 					<Main />
 					<NextScript />
 				</body>
