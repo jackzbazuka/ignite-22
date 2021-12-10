@@ -2,9 +2,9 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
+			"@/components/*": ["components/*"],
 			"@/lib/*": ["lib/*"],
-			"@/layouts/*": ["layouts/*"],
-			"@/components/*": ["components/*"]
+			"@/styles/*": ["styles/*"]
 		}
 	},
 	"exclude": ["node_modules"]
