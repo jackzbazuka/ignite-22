@@ -1,3 +1,5 @@
+import NextImage from 'next/image'
+
 export default function SocialCard({
 	icon,
 	text,
@@ -9,16 +11,16 @@ export default function SocialCard({
 			className={`p-3 group flex flex-col items-center ${col} ${textcol} lg:bg-transparent transition-all duration-75 lg:group-hover:duration-300 rounded-xl relative`}
 			href=''
 			target='_blank'>
-			<img
-				src={icon}
-				className='h-40 w-40 lg:group-hover:-translate-y-3 transform transition-all duration-300'
-			/>
+			<div className='h-40 w-40 lg:group-hover:-translate-y-3 transform transition-all duration-300'>
+				<NextImage src={icon} layout='fill' priority={true} />
+			</div>
+
 			<p className='p-3 font-semibold lg:invisible lg:group-hover:visible transition-all duration-75 lg:group-hover:duration-300'>
 				{text}
 			</p>
 			<svg
 				xmlns='http://www.w3.org/2000/svg'
-				className='absolute top-2 right-2 h-3 w-3 lg:invisible lg:group-hover:visible duration-75 lg:group-hover:duration-300'
+				className='absolute top-2 right-2 h-4 lg:invisible lg:group-hover:visible duration-75 lg:group-hover:duration-300'
 				fill='none'
 				viewBox='0 0 24 24'
 				stroke='currentColor'>
