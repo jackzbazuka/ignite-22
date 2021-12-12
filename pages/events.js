@@ -4,6 +4,7 @@ import NavLink from '@/components/NavLink'
 import FloatingLogo from '@/components/FloatingLogo'
 import EventContainer from '@/components/EventContainer'
 import EventCard from '@/components/EventCard'
+import Footer from '@/components/footer'
 
 export default function Events() {
 	const container = {
@@ -70,6 +71,7 @@ export default function Events() {
 						summary='Race your mind against time to break the encryption'
 					/>
 				</EventContainer>
+				<Footer />
 			</PageContainer>
 			<NavContainer>
 				<NavLink page='sponsors' edge='left' />

@@ -4,6 +4,7 @@ import HomeCard from '@/components/HomeCard'
 import NavContainer from '@/components/NavContainer'
 import NavLink from '@/components/NavLink'
 import Timer from '@/components/Timer'
+import Footer from '@/components/footer'
 
 export default function Home() {
 	const container = {
@@ -19,6 +20,7 @@ export default function Home() {
 	}
 
 	return (
+		<>
 		<div className='h-full flex flex-row'>
 			<PageContainer start={true}>
 				<div className='mt-10 flex flex-col lg:flex-row'>
@@ -37,7 +39,7 @@ export default function Home() {
 					<Timer
 						hideYear={true}
 						titlePosition='bottom'
-						size='small'
+						size='medium'
 						endAt={'2022-03-20 01:26:58'} // Date/Time
 					/>
 					<div className='relative group'>
@@ -67,6 +69,7 @@ export default function Home() {
 							filename='saly19.webp'
 						/>
 					</motion.div>
+					<Footer />	
 				</div>
 			</PageContainer>
 			<NavContainer>
@@ -75,6 +78,9 @@ export default function Home() {
 				<NavLink page='sponsors' edge='' />
 				<NavLink page='contact' edge='right' />
 			</NavContainer>
+			
 		</div>
+		
+		</>
 	)
 }

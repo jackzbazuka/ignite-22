@@ -3,6 +3,7 @@ import NavContainer from '@/components/NavContainer'
 import NavLink from '@/components/NavLink'
 import FloatingLogo from '@/components/FloatingLogo'
 import Gallery from '@/components/Gallery'
+import Footer from '@/components/footer'
 
 export default function About() {
 	const container = {
@@ -32,13 +33,17 @@ export default function About() {
 					time of their lives amidst the perfect blend of amusement
 					and illuminations for a better tomorrow.
 				</section>
+				
 				<Gallery />
+				<Footer />
 			</PageContainer>
+			
 			<NavContainer>
 				<NavLink page='events' edge='left' />
 				<NavLink page='sponsors' edge='' />
 				<NavLink page='contact' edge='right' />
 			</NavContainer>
+		
 		</div>
 	)
 }

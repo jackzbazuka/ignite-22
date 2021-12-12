@@ -1,3 +1,19 @@
+::-webkit-scrollbar {
+	width: 8px;
+	background-color: black;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	// background: rgb(51, 50, 50);
+	background: rgb(58, 53, 53);
+	border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(22, 22, 22);
+  }
 #timeline {
 	display: flex;
 	flex-flow: row nowrap;

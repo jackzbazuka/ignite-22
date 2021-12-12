@@ -8,7 +8,7 @@ export default function Gallery() {
 				></div>
 
 				<div className='tl-year'>
-					<p className='f2 heading--sanSerif'>2011</p>
+					<p className='f2 heading--sanSerif'>Ignite 1.0</p>
 				</div>
 
 				<div className='tl-content'>
@@ -31,7 +31,7 @@ export default function Gallery() {
 				></div>
 
 				<div className='tl-year'>
-					<p className='f2 heading--sanSerif'>2013</p>
+					<p className='f2 heading--sanSerif'>Ignite 2.0</p>
 				</div>
 
 				<div className='tl-content'>
@@ -55,7 +55,7 @@ export default function Gallery() {
 				></div>
 
 				<div className='tl-year'>
-					<p className='f2 heading--sanSerif'>2014</p>
+					<p className='f2 heading--sanSerif'>Ignite 3.0</p>
 				</div>
 
 				<div className='tl-content'>
