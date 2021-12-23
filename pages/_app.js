@@ -2,10 +2,16 @@ import { useEffect, useState } from 'react'
 import 'tailwindcss/tailwind.css'
 import '@/styles/Timer.scss'
 import '@/styles/Gallery.scss'
-import { AnimatePresence } from 'framer-motion'
+import {
+	AnimatePresence,
+	domAnimation, LazyMotion,
+	m
+  } from "framer-motion"
+
 
 export default function App({ Component, pageProps, router }) {
 	const [loading, setLoading] = useState(false)
+	
 	const variants = {
 		hidden: { opacity: 0, x: -200, y: 0 },
 		enter: {
@@ -47,6 +53,7 @@ export default function App({ Component, pageProps, router }) {
 
 	return (
 		<div className='h-screen w-full'>
+		
 			<AnimatePresence exitBeforeEnter>
 				<Component {...pageProps} />
 			</AnimatePresence>

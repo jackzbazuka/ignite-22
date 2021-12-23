@@ -19,32 +19,32 @@ export default function Contact() {
 				<FloatingLogo />
 				<SocialContainer>
 					<SocialCard
-						icon='/illustrations/instagram.png'
+						icon='/illustrations/instagram.webp'
 						text='Heart that post.'
 						col='bg-pink-500 lg:hover:bg-pink-500'
 					/>
 					<SocialCard
-						icon='/illustrations/twitter.png'
+						icon='/illustrations/twitter.webp'
 						text='Follow the trend.'
 						col='bg-cyan-500 lg:hover:bg-cyan-500'
 					/>
 					<SocialCard
-						icon='/illustrations/discord.png'
+						icon='/illustrations/discord.webp'
 						text='Join the server.'
 						col='bg-indigo-500 lg:hover:bg-indigo-500'
 					/>
 					<SocialCard
-						icon='/illustrations/youtube.png'
+						icon='/illustrations/youtube.webp'
 						text='Catch us live.'
 						col='bg-rose-500 lg:hover:bg-rose-500'
 					/>
 					<SocialCard
-						icon='/illustrations/whatsapp.png'
+						icon='/illustrations/whatsapp.webp'
 						text='Check your DMs.'
 						col='bg-green-500 lg:hover:bg-green-500'
 					/>
 					<SocialCard
-						icon='/illustrations/gmail.png'
+						icon='/illustrations/gmail.webp'
 						text='Those Emails.'
 						col='bg-white lg:hover:bg-white'
 						textcol='text-black lg:hover:text-black'

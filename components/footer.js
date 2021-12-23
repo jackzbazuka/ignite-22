@@ -6,15 +6,16 @@ function footer() {
     <div className="w-full bg-black text-white">
       <div className="xl:px-40 pb-12 lg:px-20 md:px-10 sm:px-5 px-10">
         <div className="w-full pt-12 flex flex-col sm:flex-row space-y-2 space-x-5 justify-around">
-          <div className="w-full sm:w-2/5 pr-6 flex flex-row space-y-4 ">
+          <div className="w-full sm:w-2/5 pr-6 flex flex-row space-y-2 ">
             <object
               type="image/svg+xml"
               data="/logo/fire.svg"
               className="h-24 md:h-26 lg:h-32"
             />
-            <div className="m-5 p-7 pt-8">
+            <div className="pt-8 m-5">
             <Timer
 						hideYear={true}
+            hideSecond={true}
 						titlePosition='bottom'
 						size='small'
 						endAt={'2022-03-20 01:26:58'} // Date/Time
